@@ -126,22 +126,22 @@ input[type="text"]{
 .about{
     display:flex;
     flex-direction: column;
-    font-size:large;
+    /* font-size:large; */
 }
 .group{
     display:flex;
     flex-direction: column;
-    font-size:large;
+    /* font-size:large; */
 }
 .help{
     display:flex;
     flex-direction: column;
-    font-size:large;
+    /* font-size:large; */
 }
 .policy{
     display:flex;
     flex-direction: column;
-    font-size:large;
+    /* font-size:large; */
 }
 .heading{
     color:grey;
@@ -229,4 +229,27 @@ input[type="text"]{
     text-align:start;
     color: white;
     padding-left:20px;
+}
+.mail{
+    display:flex;
+    flex-direction: column;
+    border-left:1px solid grey;
+    padding-left:20px;
+    /* font-size:large; */
+}
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 18px;
+  text-align: center;
+}
+
+.social-icons i {
+  font-size: 22px;
+
+}
+#social{
+    color:grey;
+    /* padding: 20px 0; */
+    font-size:20px;
 }
